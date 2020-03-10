@@ -14,7 +14,7 @@ terraform {
 }
 
 # Create S3 Bucket
-resource "aws_s3_bucket" "bucket" {
+resource "aws_s3_bucket" "cloudlogixs3auto" {
   bucket = "s3bucket"
   region = var.aws_region
 }
